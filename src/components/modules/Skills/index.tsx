@@ -7,7 +7,7 @@ const Skills = () => (
       <div className="flex-none lg:flex-1">
         <Image
           src="/assets/illustrations/skills.svg"
-          alt="I’m John and I’m a Backend & Devops engineer!"
+          alt="Skills illustration"
           width={400}
           height={300}
           className="absolute z-10" // Adjust z-index to place this image below the overlay

@@ -6,7 +6,7 @@ import clsx from 'clsx';
 import config from 'data/config';
 import 'components/ui/globals.css';
 
-const { url, defaultDescription, defaultTitle, twitter } = config;
+const { url, defaultDescription, defaultTitle } = config;
 
 export const metadata: Metadata = {
   title: defaultTitle,
@@ -31,14 +31,6 @@ export const metadata: Metadata = {
     icon: '/assets/favicon/favicon-32x32.png',
     shortcut: '/assets/favicon/favicon.ico',
     apple: '/assets/favicon/apple-touch-icon.png',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    creator: twitter,
-    title: defaultTitle,
-    description: defaultDescription,
-    site: url,
-    images: '/assets/thumbnail/thumbnail.png',
   },
   manifest: '/assets/favicon/site.webmanifest',
 };

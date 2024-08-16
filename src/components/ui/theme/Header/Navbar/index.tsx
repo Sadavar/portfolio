@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import NavbarLinks from 'components/ui/theme/Header/NavbarLinks';
 import { usePathname } from 'next/navigation';
 
 

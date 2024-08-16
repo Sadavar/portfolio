@@ -15,13 +15,13 @@ function Projects() {
 
 interface ProjectTemplateProps {
   title: string;
-  description: string;
+  description: React.ReactNode;
   technologies: string[];
   images: string[];
   color: {
     via: string;
     to: string;
-  }; // This will be used for dynamic gradient color
+  };
 }
 
 function ProjectTemplate({ title, description, technologies, images, color }: ProjectTemplateProps) {
@@ -51,6 +51,7 @@ function ProjectTemplate({ title, description, technologies, images, color }: Pr
         >
           {images.map((URL, index) => (
             <Image
+              alt="Project Image"
               src={URL}
               width={400}
               height={300}
@@ -65,7 +66,12 @@ function ProjectTemplate({ title, description, technologies, images, color }: Pr
 
 function Claws() {
   const title = "NASA S.U.I.T.S - CLAWS UM 🚀 👨🏽‍🚀 🪐";
-  const description = "This project is about creating an augmented reality (AR) experience for NASA astronauts. I led the web team to develop a website with real-time data visualization, navigation, messaging, and more. This experience taught me about CI/CD, Git, and AGILE within a collaborative cross-functional team. We worked with NASA engineers and presented our work at the Johnson Space Center in Houston, Texas!";
+  const description =
+    (
+      <>
+        This project is about creating an augmented reality (AR) experience for NASA astronauts. I led the web team to develop a website with real-time data visualization, navigation, messaging, and more. This experience taught me about CI/CD, Git, and AGILE within a collaborative cross-functional team. We worked with NASA engineers and presented our work at the Johnson Space Center in Houston, Texas!
+      </>
+    )
   const technologies = ["ReactJS", "ExpressJS", "MongoDB", "WebSocket", "AWS", "HoloLens"];
   const images = [
     "/assets/projects/claws/me.jpg",
