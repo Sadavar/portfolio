@@ -22,7 +22,7 @@ const ContactForm = () => {
         email: Yup.string().email('Invalid email').required('Email field is required'),
         message: Yup.string().required('Message field is required'),
         recaptcha:
-          process.env.NODE_ENV !== 'development' ? Yup.string().required('Robots are not welcome yet!') : Yup.string(),
+          Yup.string(),
       })}
       onSubmit={async ({ name, email, message }, { setSubmitting, resetForm, setFieldError }) => {
         try {
