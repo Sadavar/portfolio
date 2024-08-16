@@ -50,7 +50,7 @@ export const revalidate = 3600;
 
 const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en" suppressHydrationWarning>
-    <body className={clsx('bg-background min-h-screen font-sans antialiased scroll-smooth', roboto.variable)}>
+    <body className={clsx('bg-background min-h-screen font-sans antialiased scroll-smooth overflow-x-hidden', roboto.variable)}>
       {children}
     </body>
     <GoogleAnalytics gaId={config.googleAnalyticsID} />
