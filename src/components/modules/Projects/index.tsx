@@ -28,7 +28,7 @@ function ProjectTemplate({ title, description, technologies, images, color }: Pr
   const technologiesString = technologies.join(' \u00A0 '); // \u00A0 is the Unicode for non-breaking space
 
   // Construct the gradient color style
-  const gradientStyle = `bg-gradient-to-r from-zinc-900 from-30% ${color.via} via-60% ${color.to} to-90% flex flex-col md:flex-row w-full mb-5 gap-5 ring ring-zinc-800 rounded-2xl p-4 h-full overflow-hidden`;
+  const gradientStyle = `bg-gradient-to-b md:bg-gradient-to-r from-zinc-900 from-30% ${color.via} via-60% ${color.to} to-90% flex flex-col md:flex-row w-full mb-5 gap-5 ring ring-zinc-800 rounded-2xl p-4 h-full overflow-hidden`;
 
   return (
     <div className={gradientStyle}>
