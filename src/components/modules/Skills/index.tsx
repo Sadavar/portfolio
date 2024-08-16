@@ -23,7 +23,7 @@ const Skills = () => (
       <div className="flex-none lg:flex-1 pl-0 lg:pl-8">
         <h2 className="mb-8 text-3xl font-bold text-brand-primary dark:text-white typography">More about me</h2>
         <p className="mb-[2.5rem] font-normal text-xl md:text-[26px] text-brand-secondary dark:text-slate-200 leading-[34px] typography">
-          I was born in Kansas City, MI but grew up in Chicago, IL. Outside of programming, I tutor kids in chess, learn about philosophy, and play spikeball on the beach!
+          I grew up in Chicago, IL and go to school at the University of Michigan. Outside of programming, I tutor kids in chess, learn about philosophy, and play spikeball on the beach!
         </p>
       </div>
     </div>

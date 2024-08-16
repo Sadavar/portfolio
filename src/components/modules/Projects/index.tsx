@@ -32,7 +32,7 @@ function ProjectTemplate({ title, description, technologies, images, color }: Pr
 
   return (
     <div className={gradientStyle}>
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <h3 className="text-black dark:text-white font-semibold text-xl pb-5">{title}</h3>
         <p className="text-gray-700 dark:text-gray-200 mb-4 text-base">{description}</p>
         <span className="text-gray-700 dark:text-gray-200 italic mr-2 last:mr-0 text-xs">
@@ -46,7 +46,7 @@ function ProjectTemplate({ title, description, technologies, images, color }: Pr
           autoPlay={true}
           interval={1700}
           infiniteLoop={true}
-          showThumbs={true}
+          showThumbs={false}
           swipeable={true}
         >
           {images.map((URL, index) => (
