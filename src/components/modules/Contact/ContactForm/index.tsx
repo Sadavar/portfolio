@@ -103,16 +103,17 @@ const ContactForm = () => {
                 name="recaptcha"
                 onChange={(value: string) => setFieldValue('recaptcha', value)}
               /> */}
-              <ReCAPTCHA
+              {/* <ReCAPTCHA
                 sitekey={process.env.NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY as string}
                 onChange={(value: string | null) => {
+                  console.log(process.env.NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY);
                   if (value) {
                     setFieldValue('recaptcha', value);
                   } else {
                     setFieldValue('recaptcha', '');
                   }
                 }}
-              />
+              /> */}
               <ErrorMessage className="text-red-600 block mt-1" component="span" name="recaptcha" />
             </div>
           )}
