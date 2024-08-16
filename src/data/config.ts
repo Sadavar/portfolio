@@ -1,7 +1,7 @@
 const config = {
   defaultTitle: 'Varun Sadasivam',
   url: process.env.NEXT_PUBLIC_PORTFOLIO_URL!,
-  defaultDescription: 'Portfolio Website',
+  defaultDescription: 'Hi I am Varun Sadasivam, a Computer Science student at the University of Michigan. This is my personal website where you can learn more about me and my projects!',
   googleAnalyticsID: 'G-PE8QW0ZGTZ',
 };
 
