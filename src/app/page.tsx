@@ -7,6 +7,7 @@ import Footer from 'components/ui/theme/Footer';
 
 const HomePage = () => (
   <>
+
     <AllProviders>
       <div className="bg-black">
         <Intro />

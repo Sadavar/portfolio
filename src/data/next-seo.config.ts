@@ -18,11 +18,6 @@ const seoConfig = {
       },
     ],
   },
-  twitter: {
-    handle: config.twitter,
-    site: config.twitter,
-    cardType: 'summary_large_image',
-  },
 };
 
 export default seoConfig;
