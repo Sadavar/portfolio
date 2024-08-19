@@ -20,7 +20,8 @@ const Skills = () => (
         <h2 className="mb-8 text-3xl font-bold text-brand-primary dark:text-white typography">
           More about me
         </h2>
-        <p className="mb-[2.5rem] font-normal text-xl md:text-[26px] text-brand-secondary dark:text-slate-200 leading-[34px] typography">
+
+        <p className="text-gray-700 dark:text-gray-200 mb-4 text-lg">
           I grew up in Chicago, went to high school at Walter Payton and now study at the University of Michigan. I first got into programming when I tried to develop cheats for a game called Minecraft when I was younger and I have carried that love for tinkering with me. Outside of programming, I like to tutor kids in chess, learn about philosophy and religion, and play Spikeball on the beach!
         </p>
       </div>
