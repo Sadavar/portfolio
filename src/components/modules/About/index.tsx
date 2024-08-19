@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Skills = () => (
+const About = () => (
   <div className="flex justify-center w-full" id="about">
     <div className="container py-16 flex flex-col lg:flex-row justify-between items-center">
       <div className="pb-10 lg:w-1/2 flex justify-center">
@@ -29,4 +29,4 @@ const Skills = () => (
   </div>
 );
 
-export default Skills;
+export default About;

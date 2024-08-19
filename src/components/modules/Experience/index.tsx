@@ -15,7 +15,7 @@ function Experience() {
 
 
 function NYL() {
-    const title = "New York Life Insurance Company - Buisness Engineering Intern 🗽 🍎 💻";
+    const title = "New York Life Insurance - Buisness Engineering Intern 🗽 🍎 💻";
     const description = (
         <>
             This internship allowed me to get both technical and buisness experience on a software product built on technologies like ReactJS and Java Springboot.
@@ -48,7 +48,13 @@ function HBK() {
     const title = "HBK Engineering - Software Engineering Intern 🧑🏽‍💻 🛠️ 🚧";
     const description = (
         <>
-            In this internship I got a chance to work on a couple different projects. The first one was a a multi-threaded desktop application written in C++ and Qt which streamlined financial data parsing, making the process much faster and more efficient. I also got to work on a JavaScript app that seamlessly worked with a vast collection of electric pole diagrams and spreadsheets, dramatically speeding up data conversion. Lastly, I designed a central dashboard using PowerBI and Python that brought all key metrics and KPIs together in one place, enhancing team communication and collaboration. This role was a fantastic blend of problem-solving and innovation, allowing me to dive into diverse technologies and make a real impact on how data is managed and visualized.
+            In this internship I got a chance to work on a couple different projects.
+            The first one was a a multi-threaded desktop application written in C++ and Qt which streamlined financial data parsing, making the process much faster and more efficient.
+            I also got to work on a JavaScript app that seamlessly worked with a vast collection of electric pole diagrams and spreadsheets, dramatically speeding up data conversion.
+            Lastly, I designed a central dashboard using PowerBI and Python that brought all key metrics and KPIs together in one place, enhancing team communication and collaboration.
+            <br></br><br></br>
+            This role was a great blend of problem-solving and innovation, allowing me to dive into diverse technologies and make a real impact on how data is managed and visualized.
+
         </>
     );
     const technologies = ["C++", "Python", "Javscript", "Qt"];
