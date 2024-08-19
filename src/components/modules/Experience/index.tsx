@@ -29,6 +29,7 @@ function NYL() {
     const technologies = ["ReactJS", "Java Springboot"];
     const images = [
         "/assets/Experiences/NYL/nyl_logo.jpg",
+        "/assets/Experiences/NYL/nyl_building.avif",
     ];
     const color = {
         via: "via-blue-950",
@@ -62,8 +63,8 @@ function HBK() {
         "/assets/Experiences/HBK/hbk_logo4.png",
     ];
     const color = {
-        via: "via-blue-950",
-        to: "to-blue-500"
+        via: "via-teal-950",
+        to: "to-teal-500"
     }
     return (
         <CardTemplate

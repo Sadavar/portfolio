@@ -1,7 +1,5 @@
 'use client';
-import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Image from "next/image";
 import CardTemplate from "../CardTemplate";
 
 function Projects() {
@@ -31,8 +29,8 @@ function Claws() {
     "/assets/projects/claws/mcc.jpg",
   ];
   const color = {
-    via: "via-blue-950",
-    to: "to-blue-500"
+    via: "via-cyan-950",
+    to: "to-cyan-500"
   }
   return (
     <CardTemplate
