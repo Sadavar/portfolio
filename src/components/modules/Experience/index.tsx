@@ -20,6 +20,7 @@ function NYL() {
         <>
             This internship allowed me to get both technical and buisness experience on a software product built on technologies like ReactJS and Java Springboot.
             I worked on a team which developed NYL's internal consulting software, GuideMe, which is used by over 13,000 agents and managers to help in the sales process.
+            <br></br><br></br>
             Over the course of the program, I developed an accessbility feature which vastly improved visuals for those with colorblindess and other visual impairments, improved screen-reader support, and implemented video summarizing solutions.
             I also got experience with automating testing by using Selenium which vastly helped in the process. This experience was a great blend of technical and buisness skills and I learned a lot about how large softwares are developed and maintained. This was also my first time in NYC and I really fell in love with the city!
 
