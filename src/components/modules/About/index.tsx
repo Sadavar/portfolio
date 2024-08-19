@@ -21,7 +21,7 @@ const Skills = () => (
           More about me
         </h2>
         <p className="mb-[2.5rem] font-normal text-xl md:text-[26px] text-brand-secondary dark:text-slate-200 leading-[34px] typography">
-          I grew up in Chicago, IL and go to school at the University of Michigan. Outside of programming, I tutor kids in chess, learn about philosophy, and play spikeball on the beach!
+          I grew up in Chicago, went to high school at Walter Payton and now study at the University of Michigan. I first got into programming when I tried to develop cheats for a game called Minecraft when I was younger and I have carried that love for tinkering with me. Outside of programming, I like to tutor kids in chess, learn about philosophy and religion, and play Spikeball on the beach!
         </p>
       </div>
     </div>
