@@ -69,9 +69,9 @@ const CardTemplate = ({ title, description, technologies, images, color }: CardT
                         onClick={() => setIsExpanded(prev => !prev)}
                     >
                         <div className="flex items-center">
-                            <h1 className='pr-1'>
+                            <h2 className='pr-1'>
                                 {isExpanded ? 'Read Less' : 'Read More'}
-                            </h1>
+                            </h2>
                             {isExpanded ? (
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" width="20px" height="20px">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />

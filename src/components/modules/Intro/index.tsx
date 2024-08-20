@@ -10,7 +10,7 @@ const Intro = () => (
         <h1 className="pb-5 md:pb-2 text-5xl md:text-6xl font-bold text-left w-full md:w-3/4 ">
           <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent uppercase">Varun Sadasivam</span>
         </h1>
-        <h1 className="pb-10 text-5xl md:text-6xl font-bold text-left w-full md:w-3/4">COMPUTER SCIENCE @ UNIVERSITY OF MICHIGAN</h1>
+        <h2 className="pb-10 text-5xl md:text-6xl font-bold text-left w-full md:w-3/4">COMPUTER SCIENCE @ UNIVERSITY OF MICHIGAN</h2>
         <h2 className="pb-5 w-full md:w-3/4 text-xl md:text-xl text-white text-left">
           Dive into my world of programming, chess, and outer space as I continue to explore the tech world!
         </h2>

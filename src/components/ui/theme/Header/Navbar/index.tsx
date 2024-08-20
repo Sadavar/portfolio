@@ -24,13 +24,17 @@ function Navbar() {
           >
             Projects
           </Link>
-          <Link
-            href={`${pathname}#contact`}
+          <a target="_blank" href="https://drive.google.com/file/d/13Q8P3fX9495HvPTsC6hoEGrT0kXZq694/view" rel="noopener noreferrer"
             className="text-white hover:text-zinc-300 transition-colors duration-75"
-            scroll
           >
-            Contact
-          </Link>
+            Resume
+          </a>
+          <a target="_blank" href="https://linkedin.com/in/varunsadasivam" rel="noopener noreferrer">
+            <img src="/assets/social/linkedin6.png" alt="Linkedin" className="h-5 w-5" />
+          </a>
+          <a target="_blank" href="https://github.com/sadavar" rel="noopener noreferrer">
+            <img src="/assets/social/github-mark-white.svg" alt="Githuv" className="h-5 w-5" />
+          </a>
         </div>
       </div >
     </>
