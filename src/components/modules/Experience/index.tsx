@@ -60,7 +60,7 @@ function HBK() {
     );
     const technologies = ["C++", "Python", "Javscript", "Qt"];
     const images = [
-        "/assets/Experiences/HBK/hbk_logo4.png",
+        "/assets/Experiences/HBK/hbk_logo.png",
     ];
     const color = {
         via: "via-teal-950",

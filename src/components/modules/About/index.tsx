@@ -6,7 +6,7 @@ const About = () => (
       <div className="pb-10 lg:w-1/2 flex justify-center">
         <div className="relative w-64 h-64 rounded-full border-4 border-white shadow-lg overflow-hidden">
           <img
-            src="/assets/illustrations/headshot.jpg"
+            src="/assets/illustrations/headshot.webp"
             alt="headshot image"
             className="object-cover w-full h-full"
             style={{

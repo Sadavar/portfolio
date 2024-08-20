@@ -4,7 +4,6 @@ import { useForm } from '@formspree/react';
 import clsx from 'clsx';
 import { Formik, Form, FastField, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as string);
@@ -97,23 +96,6 @@ const ContactForm = () => {
           </div>
           {values.name && values.email && values.message && process.env.NODE_ENV !== 'development' && (
             <div className="relative mb-4">
-              {/* <FastField
-                component={ReCAPTCHA}
-                sitekey={process.env.NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY as string}
-                name="recaptcha"
-                onChange={(value: string) => setFieldValue('recaptcha', value)}
-              /> */}
-              {/* <ReCAPTCHA
-                sitekey={process.env.NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY as string}
-                onChange={(value: string | null) => {
-                  console.log(process.env.NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY);
-                  if (value) {
-                    setFieldValue('recaptcha', value);
-                  } else {
-                    setFieldValue('recaptcha', '');
-                  }
-                }}
-              /> */}
               <ErrorMessage className="text-red-600 block mt-1" component="span" name="recaptcha" />
             </div>
           )}
