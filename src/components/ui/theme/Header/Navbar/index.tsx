@@ -30,10 +30,10 @@ function Navbar() {
             Resume
           </a>
           <a target="_blank" href="https://linkedin.com/in/varunsadasivam" rel="noopener noreferrer">
-            <img src="/assets/social/linkedin6.png" alt="Linkedin" className="h-5 w-5" />
+            <img src="/assets/social/linkedin.png" alt="Linkedin" className="h-5 w-5" />
           </a>
           <a target="_blank" href="https://github.com/sadavar" rel="noopener noreferrer">
-            <img src="/assets/social/github-mark-white.svg" alt="Githuv" className="h-5 w-5" />
+            <img src="/assets/social/github.svg" alt="Githuv" className="h-5 w-5" />
           </a>
         </div>
       </div >

@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/assets/favicon/favicon-32x32.png',
-    shortcut: '/assets/favicon/favicon.ico',
-    apple: '/assets/favicon/apple-touch-icon.png',
+    icon: '/assets/illustrations/coding.png',
+    shortcut: '/assets/illustrations/coding.png',
+    apple: '/assets/illustrations/coding.png',
   },
   manifest: '/assets/favicon/site.webmanifest',
   alternates: {
