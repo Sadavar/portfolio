@@ -5,6 +5,8 @@ import { Roboto } from 'next/font/google';
 import clsx from 'clsx';
 import config from 'data/config';
 import 'components/ui/globals.css';
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const { url, defaultDescription, defaultTitle } = config;
 
@@ -55,6 +57,8 @@ const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en" suppressHydrationWarning>
     <body className={clsx('bg-black min-h-screen font-sans antialiased scroll-smooth overflow-x-hidden', roboto.variable)}>
       {children}
+      <Analytics />
+      <SpeedInsights />
     </body>
     <GoogleAnalytics gaId={config.googleAnalyticsID} />
   </html>
