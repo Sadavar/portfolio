@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     apple: '/assets/favicon/apple-touch-icon.png',
   },
   manifest: '/assets/favicon/site.webmanifest',
+  alternates: {
+    canonical: "/",
+  },
 };
 
 const roboto = Roboto({
@@ -50,7 +53,7 @@ export const revalidate = 3600;
 
 const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en" suppressHydrationWarning>
-    <body className={clsx('bg-background min-h-screen font-sans antialiased scroll-smooth overflow-x-hidden', roboto.variable)}>
+    <body className={clsx('bg-black min-h-screen font-sans antialiased scroll-smooth overflow-x-hidden', roboto.variable)}>
       {children}
     </body>
     <GoogleAnalytics gaId={config.googleAnalyticsID} />
