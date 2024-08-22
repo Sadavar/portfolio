@@ -30,9 +30,9 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/assets/illustrations/coding.png',
-    shortcut: '/assets/illustrations/coding.png',
-    apple: '/assets/illustrations/coding.png',
+    icon: '/assets/illustrations/icon.png',
+    shortcut: '/assets/illustrations/icon.png',
+    apple: '/assets/illustrations/icon.png',
   },
   manifest: '/assets/favicon/site.webmanifest',
   alternates: {
