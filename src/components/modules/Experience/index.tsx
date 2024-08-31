@@ -49,8 +49,8 @@ function HBK() {
     const title = "HBK Engineering - Software Engineering Intern 🧑🏽‍💻 🛠️ 🚧";
     const description = (
         <>
-            In this internship I got a chance to work on a couple different projects.
-            The first one was a a multi-threaded desktop application written in C++ and Qt which streamlined financial data parsing, making the process much faster and more efficient.
+            In this internship I got a chance to work on a couple of different projects.
+            The first one was a multi-threaded desktop application written in C++ and Qt which streamlined financial data parsing, making the process much faster and more efficient.
             I also got to work on a JavaScript app that seamlessly worked with a vast collection of electric pole diagrams and spreadsheets, dramatically speeding up data conversion.
             Lastly, I designed a central dashboard using PowerBI and Python that brought all key metrics and KPIs together in one place, enhancing team communication and collaboration.
             <br></br><br></br>
