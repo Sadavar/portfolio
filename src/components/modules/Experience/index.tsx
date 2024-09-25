@@ -15,7 +15,7 @@ function Experience() {
 
 
 function NYL() {
-	const title = "New York Life Insurance - Business Engineering Intern 🗽 🍎 💻";
+	const title = "New York Life Insurance - Software Engineering Intern 🗽 🍎 💻";
 	const description = (
 		<>
 			This internship allowed me to get both technical and business experience on a software product built on technologies like ReactJS and Java Spring Boot.
