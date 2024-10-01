@@ -25,7 +25,7 @@ function Navbar() {
 						>
 							Projects
 						</Link>
-						<a target="_blank" href="https://drive.google.com/file/d/1ErzIe21QbB27Q1lFLXl-Rb7zarypwM96/view" rel="noopener noreferrer"
+						<a target="_blank" href="https://drive.google.com/file/d/1sqRwrugX2jDWbJrRs_LmR51rngcZgcI7/view?usp=sharing" rel="noopener noreferrer"
 							className="text-white hover:text-zinc-300 transition-colors duration-75"
 						>
 							Resume
