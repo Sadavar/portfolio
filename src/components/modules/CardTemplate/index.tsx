@@ -42,6 +42,10 @@ const CardTemplate = ({ title, link, description, technologies, images, color }:
 		};
 	}, [description]);
 
+	function isYoutubeURL(URL: string) {
+		return URL.includes("youtube");
+	}
+
 	return (
 		<div className={gradientStyle}>
 			<div className="w-full md:w-1/2">
@@ -99,20 +103,32 @@ const CardTemplate = ({ title, link, description, technologies, images, color }:
 			<div className="w-full max-w-lg md:w-1/2">
 				<Carousel
 					useKeyboardArrows={true}
-					autoPlay={true}
+					autoPlay={images.some(isYoutubeURL) ? false : true}
 					interval={1700}
 					infiniteLoop={true}
 					showThumbs={false}
 					swipeable={true}
 				>
 					{images.map((URL, index) => (
-						<Image
-							alt="Project Image"
-							src={URL}
-							width={400}
-							height={300}
-							key={index}
-						/>
+						URL.includes("youtube") ? (
+							<div key={index}>
+								<iframe
+									width="600"
+									height="400"
+									src={URL.replace("watch?v=", "embed/")}
+									title="YouTube video player"
+									allowFullScreen
+								/>
+							</div>
+						)
+							:
+							<Image
+								alt="Project Image"
+								src={URL}
+								width={400}
+								height={300}
+								key={index}
+							/>
 					))}
 				</Carousel>
 			</div>

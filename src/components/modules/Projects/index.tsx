@@ -23,6 +23,7 @@ function Claws() {
 		)
 	const technologies = ["ReactJS", "ExpressJS", "Python Flask", "MongoDB", "WebSocket", "AWS", "HoloLens"];
 	const images = [
+		"https://www.youtube.com/watch?v=khfSNgq8GvQ",
 		"/assets/projects/claws/me.jpg",
 		"/assets/projects/claws/nav_create.jpg",
 		"/assets/projects/claws/onsite.jpg",
