@@ -1,0 +1,104 @@
+/* Existing Embla styles for the carousel */
+.embla {
+  max-width: 48rem;
+  margin: auto;
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+  --slide-size: 70%;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.embla__slide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+.embla__slide__number {
+  box-shadow: inset 0 0 0 0.2rem white;
+  border-radius: 1.8rem;
+  font-size: 4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--slide-height);
+  user-select: none;
+}
+.embla__controls, .embla__buttons, .embla__button, .embla__button:disabled, .embla__button__svg, .embla__dots, .embla__dot, .embla__dot:after, .embla__dot--selected:after {
+  /* retain all existing styles for these classes */
+}
+
+/* Custom styles to switch layouts based on screen size  */
+.carousel-container {
+  display: none; /* Hide carousel by default */
+}
+
+.three-cards-layout {
+  display: none; /* Hide three-card layout by default */
+  display: flex;
+  gap: 16px; /* Add a gap between cards */
+}
+
+/* Styles for the dark-themed cards */
+.card {
+  border: 1px solid #333; /* Darker border color for subtle contrast */
+  background-color: #1a1a1a; /* Dark background color */
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.card h1 {
+  color: #fff; /* White text for good contrast */
+  margin-bottom: 8px; /* Space between title and image */
+}
+
+.card p {
+  color: #bbb; /* Lighter grey for descriptive text */
+}
+
+.card-image {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border-radius: 4px; /* Match with card's corner radius */
+}
+
+/* Optional: Add hover effects for interactivity and enhanced UI */
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+  transform: translateY(-4px); /* Slight lift on hover */
+  transition: all 0.3s ease; /* Smooth transition for effects */
+}
+
+
+/* Media Query for screens 768px and below (Mobile) */
+@media (max-width: 768px) {
+  .carousel-container {
+    display: block; /* Display carousel on mobile */
+  }
+
+  .three-cards-layout {
+    display: none; /* Hide three-card layout on mobile */
+  }
+}
+
+/* Media Query for screens above 768px (Desktop and larger) */
+@media (min-width: 769px) {
+  .carousel-container {
+    display: none; /* Hide carousel on larger screens */
+  }
+
+  .three-cards-layout {
+    display: flex; /* Show three-card layout on larger screens */
+  }
+}

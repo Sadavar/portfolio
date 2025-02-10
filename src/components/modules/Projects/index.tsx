@@ -8,7 +8,38 @@ function Projects() {
 			<h2 className="text-2xl font-bold mb-6">Projects</h2>
 			<Claws />
 			<Chess />
+			<Helix />
 		</div>
+	);
+}
+
+function Helix() {
+	const title = "Helix - Agentic AI Assistant 🧬 🤖 🧑🏽‍💻️";
+	const description =
+		(
+			<>
+				This is a conversational agentic AI platform built to be an HR assistant for generating recruiting outreach steps.
+				The backend uses Langgraph and Langchain to build the agentic infrastructure which is served over Flask, communicated via WebSocket, and stored with SQL.
+				This was my first project learning about agentic AI and I enjoyed creating the nodes and edges to form a graph using Langgraph.
+				The AI is able to make decisions using conditional edges which direct which nodes it lands on.
+			</>
+		)
+	const technologies = ["Langgraph", "ReactJS", "Python Flask", "WebSocket", "SQL"];
+	const images = [
+		"/assets/gifs/Helix.gif",
+	];
+	const color = {
+		via: "via-cyan-950",
+		to: "to-cyan-500"
+	}
+	return (
+		<CardTemplate
+			title={title}
+			description={description}
+			technologies={technologies}
+			images={images}
+			color={color}
+		/>
 	);
 }
 
@@ -23,6 +54,7 @@ function Claws() {
 		)
 	const technologies = ["ReactJS", "ExpressJS", "Python Flask", "MongoDB", "WebSocket", "AWS", "HoloLens"];
 	const images = [
+		"/assets/gifs/ar_nav.gif",
 		"https://www.youtube.com/watch?v=khfSNgq8GvQ",
 		"/assets/projects/claws/me.jpg",
 		"/assets/projects/claws/nav_create.jpg",
@@ -48,7 +80,7 @@ function Claws() {
 
 function Chess() {
 	const title = "Chessir - AI Chess Trainer 🤖 🦾 ♟️";
-	const link = "https://chessir.com";
+	const link = "https://www.chessir.com";
 	const description = (
 		<>
 			A web app that enhances chess skills by generating personalized puzzles based on players' Chess.com games. The application utilizes a custom algorithm interfacing with the AI engine Stockfish to identify missed winning moves and fluctuations in game data, producing tailored puzzles for users. By integrating with the Chess.com API, the site allows authenticated users to select and analyze their games, receiving puzzles stored in a database for targeted practice.<br />
