@@ -6,12 +6,14 @@ const About = () => (
       <div className="pb-10 lg:w-1/2 flex justify-center">
         <div className="relative w-64 h-64 rounded-full border-4 border-white shadow-lg overflow-hidden">
           <img
-            src="/assets/illustrations/headshot.webp"
+            src="/assets/illustrations/headshot-ecrc.jpg"
             alt="headshot image"
             className="object-cover w-full h-full"
             style={{
-              objectPosition: 'center', // Adjust as needed
-              transform: 'scale(1.1) translateX(10px) translateY(10px)' // Zoom in by 20% and move right
+              // zoom in on the image
+              transform: 'scale(1.1)',
+              objectPosition: 'center top',
+
             }}
           />
         </div>
